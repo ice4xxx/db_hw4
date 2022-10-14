@@ -8,9 +8,10 @@ services:
     ports:
       - "5432:5432/tcp"
     environment:
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_USER=user
-      - POSTGRES_DB=lainex
+      - POSTGRES_PASSWORD=KOROTKOV_203
+      - POSTGRES_USER=KOROTKOV_203
+      - POSTGRES_DB=KOROTKOV_203
     volumes:
-      - C:\Users\aderl\Desktop\DB\hw4\config\:/etc/postgresql/
-      - C:\Users\aderl\Desktop\DB\hw4\scripts\:/docker-entrypoint-initdb.d/
+      - ./config/:/etc/postgresql/
+      - ./scripts/:/docker-entrypoint-initdb.d/
+      - ./data/:/var/lib/postgresql/data/

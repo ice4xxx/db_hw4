@@ -1,4 +1,4 @@
-CREATE schema hospital;
+CREATE SCHEMA IF NOT EXISTS hospital;
 
 CREATE TABLE IF NOT EXISTS hospital.Station
 (

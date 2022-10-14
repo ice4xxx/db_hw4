@@ -1,4 +1,4 @@
-CREATE schema rzd;
+CREATE SCHEMA IF NOT EXISTS rzd;
 
 CREATE TABLE IF NOT EXISTS rzd.City
 (

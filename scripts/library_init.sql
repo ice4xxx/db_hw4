@@ -1,4 +1,4 @@
-CREATE schema library;
+CREATE SCHEMA IF NOT EXISTS library;
 
 CREATE TABLE IF NOT EXISTS library.Publisher
 (
